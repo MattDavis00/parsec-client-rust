@@ -12,7 +12,7 @@ edition = "2018"
 documentation = "https://docs.rs/crate/parsec-client"
 
 [dependencies]
-parsec-interface = "0.25.0"
+parsec-interface = { git = "https://github.com/MattDavis00/parsec-interface-rs.git", rev = "428d079252bec6c1948bb0f45a5bafef50eb6858" }
 num = "0.3.0"
 log = "0.4.11"
 derivative = "2.1.1"
